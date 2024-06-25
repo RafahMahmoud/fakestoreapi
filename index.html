@@ -28,7 +28,6 @@
     </footer>
 
 
-   <script src="app.js"></script>
    <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js"></script>
     <script type="module">
@@ -71,7 +70,7 @@ function getProducts() {
                         x.id = `product-${id}`; // Assign unique ID to each card
                         let val = `
                             <h2>${product.title}</h2>
-                            <p id="price">Price: ${product.price}</p>
+                            <p>Price: ${product.price}</p>
                             <p>Description: ${product.description}</p>
                             <img src="${product.image}" alt="${product.title}" style="width:500px;height:500px;">
                             <button onclick="deleteProduct('${id}')">Delete</button>

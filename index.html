@@ -71,7 +71,7 @@ function getProducts() {
                         x.id = `product-${id}`; // Assign unique ID to each card
                         let val = `
                             <h2>${product.title}</h2>
-                            <p>Price: ${product.price}</p>
+                            <p id="price">Price: ${product.price}</p>
                             <p>Description: ${product.description}</p>
                             <img src="${product.image}" alt="${product.title}" style="width:500px;height:500px;">
                             <button onclick="deleteProduct('${id}')">Delete</button>

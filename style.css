@@ -38,41 +38,30 @@ main {
 }
 #price{
     font-weight: 600;
-    color: rgb(1, 70, 28);
+    color: rgb(2, 92, 60);
 }
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 20px;
-  }
+#aa {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1rem;
   
-  .container {
-    max-width: 600px;
-    margin: auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  h1 {
+}
+
+  h2 {
     text-align: center;
   }
   
-  form {
-    margin-bottom: 20px;
-  }
   
   textarea {
-    width: 100%;
+    width: 95%;
     height: 100px;
     margin-bottom: 10px;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
     resize: vertical;
-  }
+  } 
   
   button {
     background-color: #4CAF50;
@@ -87,23 +76,10 @@ body {
     background-color: #45a049;
   }
   
-  .post-card {
-    background-color: #f9f9f9;
+   #post-form {
+    background-color: #d2d0d0;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 4px;
-  }
-  
-  .post-actions {
-    margin-top: 8px;
-  }
-  
-  .post-actions button {
-    margin-right: 5px;
-    background-color: #f44336;
-  }
-  
-  .post-actions button.update {
-    background-color: #2196F3;
-  }
+  } 
   
